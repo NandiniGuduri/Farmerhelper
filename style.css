@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eef7f1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 850px;
+    margin: 30px auto;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+h1 {
+    text-align: center;
+    color: #2e7d32;
+}
+
+p {
+    text-align: center;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 12px 0;
+    font-size: 16px;
+}
+
+.disease-card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.disease-image {
+    width: 100%;
+    max-width: 280px;   /* controls width */
+    height: 180px;      /* SAME height for all */
+    object-fit: cover;  /* crops without stretching */
+    display: block;
+    margin: 12px auto;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+#result img {
+    width: 260px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    display: block;
+    margin: 10px auto !important;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+}
+
+
+ul {
+    padding-left: 20px;
+}
+.image-gallery {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.disease-img {
+    width: 150px;
+    height: 110px;
+    object-fit: cover;
+    margin: 4px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    display: inline-block;
+}
