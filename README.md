@@ -1,6 +1,9 @@
 #### **Farmer Helper Web Application**
 
 
+A simple web application designed to help farmers identify crop diseases and understand fertilizer usage, cost, and safety measures.
+
+
 
 ##### 📌Problem
 
